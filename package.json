@@ -10,7 +10,8 @@
   "scripts": {
     "start": "concurrently \"npm run client\"",
     "server": "babel-watch start-server.js",
-    "client": "babel-watch start-client.js"
+    "client": "babel-watch start-client.js",
+    "build": "concurrently \"npm run client\""
   },
   "author": "Khoa Pham",
   "devDependencies": {
