@@ -8,7 +8,7 @@
     ]
   },
   "scripts": {
-    "start": "concurrently \"npm run client\"",
+    "start": "babel-watch start-client.js",
     "server": "babel-watch start-server.js",
     "client": "babel-watch start-client.js",
     "build": "babel-watch start-server.js"
